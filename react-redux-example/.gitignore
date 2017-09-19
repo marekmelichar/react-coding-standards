@@ -1,5 +1,5 @@
 /node_modules
-/react-redux-example/node_modules
+/scripts/main.js
 
 npm-debug.log
 

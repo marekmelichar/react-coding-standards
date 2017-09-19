@@ -1,5 +1,5 @@
 {
-  "name": "some name of the project",
+  "name": "basic-react-coding-standards",
   "description": "",
   "main": "./src/index.js",
   "scripts": {
