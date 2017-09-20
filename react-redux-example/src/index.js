@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
 import promiseMiddleware from 'redux-promise';
-// import reduxThunk from 'redux-thunk';
+import reduxThunk from 'redux-thunk';
 
 import App from './containers/app';
 import reducers from './reducers';
 
-const createStoreWithMiddleware = applyMiddleware(promiseMiddleware)(createStore);
+const createStoreWithMiddleware = applyMiddleware(promiseMiddleware, reduxThunk)(createStore);
 
 ReactDOM.render(
   // store === global state object
